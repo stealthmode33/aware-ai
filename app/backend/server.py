@@ -379,7 +379,7 @@ async def get_goals(current_user: dict = Depends(get_current_user)):
 async def update_goal(
     goal_id: str, req: GoalUpdateRequest, current_user: dict = Depends(get_current_user)
 ):
-    update_data = {k: v for k, v in req.dict().items() if v is not None}
+    update_data = {k: v for k, v in req.dict().items() if v is not None or k in (\"completed\", \"progress\")}
     update_data[\"updated_at\"] = datetime.now(timezone.utc).isoformat()
     result = goals_col.update_one(
         {\"id\": goal_id, \"user_id\": current_user[\"id\"]}, {\"$set\": update_data}
