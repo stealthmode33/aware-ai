@@ -1,0 +1,11 @@
+src/pages/CheckIn.js Line 24:6: React Hook useEffect has a missing dependency: 'authAxios'. Either include it or remove the dependency array react-hooks/exhaustive-deps
+
+src/pages/Dashboard.js Line 31:10: 'loadingData' is assigned a value but never used no-unused-vars Line 41:6: React Hook useEffect has a missing dependency: 'authAxios'. Either include it or remove the dependency array react-hooks/exhaustive-deps
+
+src/pages/Dilemma.js Line 43:6: React Hook useEffect has a missing dependency: 'authAxios'. Either include it or remove the dependency array react-hooks/exhaustive-deps
+
+src/pages/Goals.js Line 5:31: 'ChevronDown' is defined but never used no-unused-vars Line 5:44: 'ChevronUp' is defined but never used no-unused-vars Line 30:37: React Hook useEffect has a missing dependency: 'loadGoals'. Either include it or remove the dependency array react-hooks/exhaustive-deps
+
+src/pages/Profile.js Line 32:6: React Hook useEffect has a missing dependency: 'authAxios'. Either include it or remove the dependency array react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning supervisor: child process was not spawned supervisor: couldn't chdir to /app/frontend: ENOENT supervisor: child process was not spawned supervisor: couldn't chdir to /app/frontend: ENOENT supervisor: child process was not spawned supervisor: couldn't chdir to /app/frontend: ENOENT supervisor: child process was not spawned (node:1321) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option. (Use node --trace-deprecation ... to show where the warning was created) (node:1321) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option. Exit code: 0
