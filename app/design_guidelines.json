@@ -1,0 +1,151 @@
+{
+  "brand_identity": {
+    "name": "InnerVoice",
+    "mission": "To be the warm, human-like conscience that guides users through self-reflection and growth.",
+    "tone": {
+      "primary": "Warm, Empathetic, Non-judgmental",
+      "secondary": "Reflective, Calm, Trustworthy",
+      "anti_patterns": ["Robotic", "Cold", "Overly Clinical", "Hype-driven"]
+    },
+    "visual_metaphor": "A quiet room with morning light, textured paper, ceramic pottery, organic imperfections."
+  },
+  "color_palette": {
+    "theme_strategy": "organic_earthy",
+    "description": "A grounded, matte palette inspired by nature. Avoids neon or purely digital colors.",
+    "light_mode": {
+      "background": "#FDFCF8",
+      "foreground": "#2D2A26",
+      "surface": "#F4F1EA",
+      "surface_highlight": "#EBE7DE",
+      "primary": "#BC5D41",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#6B8E6B",
+      "secondary_foreground": "#FDFCF8",
+      "accent": "#E4B04A",
+      "muted": "#9A9489",
+      "border": "#E2DED5",
+      "success": "#6B8E6B",
+      "warning": "#E4B04A",
+      "error": "#D64545"
+    },
+    "dark_mode": {
+      "background": "#1C1B1A",
+      "foreground": "#EAE8E4",
+      "surface": "#262523",
+      "surface_highlight": "#33312E",
+      "primary": "#D67C63",
+      "primary_foreground": "#1C1B1A",
+      "secondary": "#8FB48F",
+      "secondary_foreground": "#1C1B1A",
+      "accent": "#F2C979",
+      "muted": "#7A7670",
+      "border": "#3E3C39",
+      "success": "#8FB48F",
+      "warning": "#F2C979",
+      "error": "#E06C6C"
+    },
+    "gradients": {
+      "hero_overlay": "linear-gradient(180deg, rgba(253,252,248,0) 0%, #FDFCF8 100%)",
+      "warm_glow": "radial-gradient(circle at center, rgba(228, 176, 74, 0.15) 0%, rgba(253, 252, 248, 0) 70%)"
+    }
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Fraunces, 'Playfair Display', serif",
+      "body": "Outfit, 'Nunito', sans-serif",
+      "mono": "'JetBrains Mono', monospace"
+    },
+    "rules": {
+      "headings": "Use Fraunces for all H1-H3. It has a 'soft' character. Use font-light (300) or font-semibold (600). Avoid bold.",
+      "body": "Outfit is clean but has personality. Use for all UI text.",
+      "special": "Use 'Italic' styling for the AI's 'inner thoughts' or reflective prompts."
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl tracking-tight leading-none",
+      "h2": "text-4xl md:text-5xl tracking-tight leading-tight",
+      "h3": "text-2xl md:text-3xl tracking-normal leading-snug",
+      "body_lg": "text-lg md:text-xl leading-relaxed",
+      "body_base": "text-base leading-relaxed",
+      "caption": "text-sm tracking-wide uppercase text-muted"
+    }
+  },
+  "layout_system": {
+    "spacing_philosophy": "Generous. Use 2x standard spacing. If it feels empty, it's correct.",
+    "container": "max-w-7xl mx-auto px-6 md:px-12",
+    "grid_strategy": "Bento Grid - Mode A (Tetris). Never equal columns for main dashboards.",
+    "radius": {
+      "default": "rounded-2xl",
+      "button": "rounded-full",
+      "card": "rounded-3xl"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:opacity-90 transition-all duration-300 shadow-md hover:shadow-lg rounded-full px-8 py-3 text-lg font-medium",
+      "secondary": "bg-surface text-foreground border border-border hover:border-primary hover:text-primary transition-all duration-300 rounded-full px-6 py-2"
+    },
+    "cards": {
+      "style": "bg-surface/50 backdrop-blur-sm border border-border/60 shadow-sm hover:shadow-md transition-all duration-300 rounded-3xl p-6 md:p-8",
+      "interactive": "cursor-pointer hover:-translate-y-1 hover:border-primary/30"
+    },
+    "inputs": {
+      "style": "bg-transparent border-b-2 border-border focus:border-primary focus:outline-none px-0 py-3 text-lg transition-colors placeholder:text-muted/60 rounded-none",
+      "label": "text-sm font-medium text-muted mb-1 block"
+    },
+    "navigation": {
+      "style": "floating-glass",
+      "classes": "fixed top-6 left-1/2 -translate-x-1/2 bg-surface/80 backdrop-blur-xl border border-white/20 shadow-lg rounded-full px-6 py-3 flex items-center gap-6 z-50"
+    }
+  },
+  "assets": {
+    "images": {
+      "landing_hero": "https://images.unsplash.com/photo-1764002932319-85550b761715?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwyfHxjYWxtJTIwcGVhY2VmdWwlMjBsYW5kc2NhcGUlMjBuYXR1cmUlMjBtb3JuaW5nfGVufDB8fHx8MTc3MjIyNjg3NXww&ixlib=rb-4.1.0&q=85",
+      "auth_background": "https://images.unsplash.com/photo-1768466589335-d99fcd671ac6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMHdhcm0lMjBvcmdhbmljJTIwc2hhcGVzJTIwdGV4dHVyZXxlbnwwfHx8fDE3NzIyMjY4NzV8MA&ixlib=rb-4.1.0&q=85",
+      "onboarding_journey": "https://images.unsplash.com/photo-1764066184156-a5442b81df62?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMHdhcm0lMjBvcmdhbmljJTIwc2hhcGVzJTIwdGV4dHVyZXxlbnwwfHx8fDE3NzIyMjY4NzV8MA&ixlib=rb-4.1.0&q=85",
+      "dashboard_texture": "https://images.unsplash.com/photo-1759223293148-52173d3a70b3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMHdhcm0lMjBvcmdhbmljJTIwc2hhcGVzJTIwdGV4dHVyZXxlbnwwfHx8fDE3NzIyMjY4NzV8MA&ixlib=rb-4.1.0&q=85",
+      "empty_state": "https://images.unsplash.com/photo-1760442903566-99f3eae250ad?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHdhcm0lMjBvcmdhbmljJTIwc2hhcGVzJTIwdGV4dHVyZXxlbnwwfHx8fDE3NzIyMjY4NzV8MA&ixlib=rb-4.1.0&q=85"
+    },
+    "icons": {
+      "library": "lucide-react",
+      "style": "Use thin strokes (stroke-width={1.5}) for elegance. Color: current text color."
+    }
+  },
+  "motion": {
+    "library": "framer-motion",
+    "preset": "spring",
+    "stiffness": 100,
+    "damping": 20,
+    "page_transition": {
+      "initial": { "opacity": 0, "y": 20 },
+      "animate": { "opacity": 1, "y": 0 },
+      "exit": { "opacity": 0, "y": -20 },
+      "transition": { "duration": 0.4, "ease": "easeOut" }
+    }
+  },
+  "tech_stack": {
+    "frontend": "React",
+    "styling": "Tailwind CSS",
+    "components": "Shadcn/UI (Heavily Customized)",
+    "state": "Zustand or React Context",
+    "icons": "Lucide React",
+    "animation": "Framer Motion",
+    "toast": "Sonner"
+  },
+  "instructions_to_main_agent": [
+    "INSTALLATION: Install 'framer-motion', 'clsx', 'tailwind-merge', 'lucide-react', 'sonner' immediately.",
+    "FONTS: Import 'Fraunces' and 'Outfit' from Google Fonts in index.html or CSS.",
+    "THEME: Implement the Light/Dark mode toggler but DEFAULT to Light Mode. It fits the 'Human Conscience' vibe better.",
+    "COMPONENTS: Do not use default Shadcn styles. Override them with the radius and colors defined above.",
+    "LAYOUT: For the 'Chat Interface', do not use a standard chat bubble. Make it look like a dialogue script or a journal entry. Center the conversation.",
+    "ACCESSIBILITY: Ensure text contrast ratios are met, especially with the pastel colors. Use darker shades for text."
+  ],
+  "universal_guidelines": [
+    "Don't make generic centered layouts.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur) sparingly.",
+    "Every interaction needs micro-animations.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Subtle grain textures/noise overlays are encouraged.",
+    "Missing categories/logos = Use placeholder text? NO. Hide the section or use a generic icon."
+  ]
+}
