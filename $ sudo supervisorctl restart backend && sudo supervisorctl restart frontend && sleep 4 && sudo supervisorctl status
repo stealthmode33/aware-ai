@@ -1,0 +1,1 @@
+backend: ERROR (not running) backend: started frontend: ERROR (not running) frontend: started backend RUNNING pid 1296, uptime 0:00:07 code-server STOPPED Not started frontend RUNNING pid 1302, uptime 0:00:06 mongodb RUNNING pid 48, uptime 0:19:36 nginx-code-proxy RUNNING pid 41, uptime 0:19:36 Exit code: 3
